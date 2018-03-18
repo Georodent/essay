@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body  {
-  background-color: darkseagreen;
+  background-color: darkkhaki;
 }
 
 h1  {
@@ -17,19 +17,26 @@ h1  {
   font-family: 'Russo One', sans-serif;
   padding: .5em;
   font-size: 2.5em;
+  letter-spacing: .1rem
+  
+  
 }
 h3, h4  {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   margin: 0 1em 0 0;
-  font-size: .8em;
+  font-size: 1.5em;
+  font-family: 'Tangerine', cursive;
 }
 article  {
   width: 75%;
   margin: 0 12.5%;
   border: 1px solid black;
-  margin-top: 1em;
+  padding-bottom: 2em;
+  background-color: beige;
+  box-shadow: 5px 5px 5px black;
+  
 }
 .first {
   padding: 1em 4em .2em 4em;
@@ -38,10 +45,10 @@ article  {
 p  {
   text-indent: 25px;
   font-family: 'Old Standard TT', serif;
-  background-color: beige;
   padding: .2em 4em;
   font-size: 1.3em;
 }
+
 footer  {
   height: 3em;
   background-color: black;

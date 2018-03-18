@@ -52,5 +52,13 @@ p  {
 footer  {
   height: 3em;
   background-color: black;
-  margin: 1em 0 1em 0;
+  margin: 3em 0 1em 0;
+}
+
+@media (max-width: 480px){
+article, p  {
+  width: 100%;
+  margin: 0;
+  }
+  p, .first  {width: 100%; padding: .2em; text-align: center;}
 }

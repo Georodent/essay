@@ -60,3 +60,6 @@ footer  {
   p, .first  {width: 100%; padding: .2em; text-align: center;}
   h1  {text-align: center; font-size: 1em;}
 }
+@media (min-width: 1200px){
+  p, .first  {font-size: 2em;}
+}

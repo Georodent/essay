@@ -56,9 +56,7 @@ footer  {
 }
 
 @media (max-width: 480px){
-article, p  {
-  width: 100%;
-  margin: 0;
-  }
+  article, p  {width: 100%; margin: 0;}
   p, .first  {width: 100%; padding: .2em; text-align: center;}
+  h1  {text-align: center; font-size: 1em;}
 }
